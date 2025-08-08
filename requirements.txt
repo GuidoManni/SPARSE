@@ -1,0 +1,20 @@
+# Core ML/DL Libraries
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Scientific Computing
+numpy>=1.21.0
+
+# Machine Learning Metrics & Utilities
+scikit-learn>=1.0.0
+pytorch-metric-learning>=2.0.0
+
+# Progress Bars & UI
+tqdm>=4.64.0
+
+# Experiment Tracking
+mlflow>=2.0.0
+
+# Image Processing (if needed for future extensions)
+Pillow>=9.0.0
+
