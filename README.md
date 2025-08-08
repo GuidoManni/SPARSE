@@ -204,19 +204,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgements
-
-This work was partially funded by:
-- Piano Nazionale Ripresa e Resilienza (PNRR) - HEAL ITALIA Extended Partnership - SPOKE 2 Cascade Call
-- PNRR MUR project PE0000013-FAIR
-- Resources provided by NAISS and SNIC at Alvis @ C3S
-
-## 📧 Contact
-
-For questions or issues, please contact:
-- Guido Manni: [email](mailto:g.manni@unicampus.it)
-- Paolo Soda: [email](mailto:p.soda@unicampus.it)
-
 ---
 
 **Keywords**: Semi-supervised learning, Few-shot learning, Medical imaging, Deep learning, GAN-based methods, Class-conditioned image translation
