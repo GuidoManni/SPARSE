@@ -187,7 +187,8 @@ The supervised training combines four specialized losses:
 
 If you find this work useful, please cite our paper:
 
-```@misc{manni2025sparsedatarichresults,
+```bibtex
+@misc{manni2025sparsedatarichresults,
       title={SPARSE Data, Rich Results: Few-Shot Semi-Supervised Learning via Class-Conditioned Image Translation}, 
       author={Guido Manni and Clemente Lauretti and Loredana Zollo and Paolo Soda},
       year={2025},
