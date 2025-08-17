@@ -1,6 +1,6 @@
 # SPARSE: Few-Shot Semi-Supervised Learning via Class-Conditioned Image Translation
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/XXXXX)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2508.06429)
 [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/username/SPARSE)
 
 This repository contains the official implementation of **"SPARSE Data, Rich Results: Few-Shot Semi-Supervised Learning via Class-Conditioned Image Translation"**.
