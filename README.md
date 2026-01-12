@@ -188,14 +188,18 @@ The supervised training combines four specialized losses:
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@misc{manni2025sparsedatarichresults,
-      title={SPARSE Data, Rich Results: Few-Shot Semi-Supervised Learning via Class-Conditioned Image Translation}, 
-      author={Guido Manni and Clemente Lauretti and Loredana Zollo and Paolo Soda},
-      year={2025},
-      eprint={2508.06429},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.06429}, 
+@article{MANNI2026102705,
+title = {SPARSE data, rich results: Few-shot semi-supervised learning via class-conditioned image translation},
+journal = {Computerized Medical Imaging and Graphics},
+volume = {128},
+pages = {102705},
+year = {2026},
+issn = {0895-6111},
+doi = {https://doi.org/10.1016/j.compmedimag.2026.102705},
+url = {https://www.sciencedirect.com/science/article/pii/S089561112600008X},
+author = {Guido Manni and Clemente Lauretti and Loredana Zollo and Paolo Soda},
+keywords = {Semi-supervised learning, Few-shot learning, Medical imaging, Deep learning, GAN-based methods},
+abstract = {Deep learning has revolutionized medical imaging, but its effectiveness is severely limited by insufficient labeled training data. This paper introduces a novel GAN-based semi-supervised learning framework specifically designed for low labeled-data regimes, evaluated across settings with 5 to 50 labeled samples per class. Our approach integrates three specialized neural networks: a generator for class-conditioned image translation, a discriminator for authenticity assessment and classification, and a dedicated classifier, within a three-phase training framework. The method alternates between supervised training on limited labeled data and unsupervised learning that leverages abundant unlabeled images through image-to-image translation rather than generation from noise. We employ ensemble-based pseudo-labeling that combines confidence-weighted predictions from the discriminator and classifier with temporal consistency through exponential moving averaging, enabling reliable label estimation for unlabeled data. Comprehensive evaluation across eleven MedMNIST datasets demonstrates that our approach achieves statistically significant improvements over six state-of-the-art GAN-based semi-supervised methods, with particularly strong performance in the extreme 5-shot setting where the scarcity of labeled data is most challenging. The framework maintains its superiority across all evaluated settings (5, 10, 20, and 50 shots per class). Our approach offers a practical solution for medical imaging applications where annotation costs are prohibitive, enabling robust classification performance even with minimal labeled data. Code is available at https://github.com/GuidoManni/SPARSE.}
 }
 ```
 
